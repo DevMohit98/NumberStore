@@ -14,9 +14,17 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
   </head>
   <body>
+    <!--loader-->
+    <div class="ui segment">
+  <p></p>
+  <div class="ui active dimmer">
+    <div class="ui loader"></div>
+  </div>
+</div>
     <!--header-->
     <section class="m-2 p-2">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -82,7 +90,7 @@
                 <button type="button" class="btn btn-primary">Buy now</button>
               </div>
             </div>
-            <div class="col col-xl-6 col-lg-12 col-md-12 col-sm-12">
+            <div class="col col-xl-6 col-lg-12 col-md-12 col-sm-12" data-aos="fade-left">
               <div class="mt-4 bannerImage">
                 <img
                   src="./Assets/bannerImage.svg"
@@ -110,7 +118,7 @@
               class="col col-xl-6 col-lg-12 col-md-12 col-sm-12"
               data-aos="fade-right"
             >
-             <div class="banner-col mt-4">
+             <div class="banner-col mt-4" data-aos="fade-light">
                <h1>vip number <span class="span">at your finger tips</span></h1>
              </div>
             </div>
@@ -153,7 +161,7 @@
     </div>
 </section>
 <!--search bar-->
-<section class="mt-4 search">
+<section class="mt-4 search" data-aos="fade-up">
   <div class="d-flex justify-content-center align-items-center flex-row">
   <div class="dropdown mx-3">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -344,7 +352,7 @@
         <div
           class="d-flex justify-content-around align-items-center flex-column"
         >
-          <div class="detail-card p-4">
+          <div class="detail-card p-4" data-aos="fade-up">
             <h1 class="launch-number">805 805 0023</h1>
             <h2 class="sumTotal">Sum total: 31 = 4</h2>
             <div
@@ -618,87 +626,84 @@
       <!--Dream Number-->
       <section class="mt-4 pt-4 dreams">
         <div class="d-flex justify-content-center align-items-center dream">
-          <h1 class="dream-title">Get Your <span class="dream-span">dream Number</span></h1>
+          <h1 class="dream-title" data-aos="fade-up">Get Your <span class="dream-span">dream Number</span></h1>
           </div>
-          <div class="container mt-4">
-            <div class="row">
-              <div class="col col-xl-4">
-<div class="con">
-      <div class="card w-5 h-5">
-        <div class="imgBx">
-          <img src="./Assets/number.gif" />
+        <div class="container mt-4">
+      <div class="row">
+        <div class="col col-xl-3">
+          <div class="card" style="width: 18rem; height: auto; border-radius: 20px" data-aos="fade-up">
+      <img src="./Assets/number.gif" class="card-img-top" alt="number" />
+      <div class="card-body">
+        <h5 class="card-title text-center">
+        <span class="number-last">+91</span>  999111 <span class="number-last">0137</span>
+        </h5>
+        <p class="card-text text-center">Sum total:41=5</p>
+        <div class="d-flex justify-content-around">
+          <a href="#" class="btn btn-primary">Buy Now</a>
+          <a href="#" class="btn btn-primary">View details</a>
         </div>
-        <div class="contentBx">
-          <h2>New Launches</h2>
-          <div class="size mt-3">
-            <h3>No:</h3>
-            <span>7</span>
-            <span>8</span>
-            <span>9</span>
-            <span>10</span>
-            <span>10</span>
-            <span>10</span>
-            <span>10</span>
-          </div>
-          <div class="m-5">
-            <a href="#">Buy Now</a>
-          </div>
+        <div class="d-flex justify-content-end align-items-center number">
+          <h1 class="number-price">₹ 2300<h1>
         </div>
       </div>
     </div>
-              </div>
-              <div class="col col-xl-4">
-                <div class="con">
-      <div class="card w-5 h-5">
-        <div class="imgBx">
-          <img src="./Assets/number.gif" />
         </div>
-        <div class="contentBx">
-          <h2>New Launches</h2>
-          <div class="size mt-3">
-            <h3>No:</h3>
-            <span>7</span>
-            <span>8</span>
-            <span>9</span>
-            <span>10</span>
-            <span>10</span>
-            <span>10</span>
-            <span>10</span>
-          </div>
-          <div class="m-5">
-            <a href="#">Buy Now</a>
-          </div>
+         <div class="col col-xl-3">
+           <div class="card" style="width: 18rem; height: auto; border-radius: 20px" data-aos="fade-up">
+      <img src="./Assets/number.gif" class="card-img-top" alt="number" />
+      <div class="card-body">
+        <h5 class="card-title text-center">
+        <span class="number-last">+91</span>  722207 <span class="number-last">5558</span>
+        </h5>
+        <p class="card-text text-center">Sum total: 43=7</p>
+        <div class="d-flex justify-content-around">
+          <a href="#" class="btn btn-primary">Buy Now</a>
+          <a href="#" class="btn btn-primary">View details</a>
+        </div>
+        <div class="d-flex justify-content-end align-items-center number">
+          <h1 class="number-price">₹ 2850<h1>
         </div>
       </div>
     </div>
-              </div>
-              <div class="col col-xl-4">
-              <div class="con">
-      <div class="card w-5 h-5">
-        <div class="imgBx">
-          <img src="./Assets/number.gif" />
+         </div>
+          <div class="col col-xl-3">
+            <div class="card" style="width: 18rem; height: auto; border-radius: 20px" data-aos="fade-up">
+      <img src="./Assets/number.gif" class="card-img-top" alt="number" />
+      <div class="card-body">
+        <h5 class="card-title text-center">
+        <span class="number-last">+91</span> 724868 <span class="number-last">0001</span>
+        </h5>
+        <p class="card-text text-center">Sum total: 36=9</p>
+        <div class="d-flex justify-content-around">
+          <a href="#" class="btn btn-primary">Buy Now</a>
+          <a href="#" class="btn btn-primary">View details</a>
         </div>
-        <div class="contentBx">
-          <h2>New Launches</h2>
-          <div class="size mt-3">
-            <h3>No:</h3>
-            <span>7</span>
-            <span>8</span>
-            <span>9</span>
-            <span>10</span>
-            <span>10</span>
-            <span>10</span>
-            <span>10</span>
-          </div>
-          <div class="m-5">
-            <a href="#">Buy Now</a>
-          </div>
+        <div class="d-flex justify-content-end align-items-center number">
+          <h1 class="number-price">₹ 3000<h1>
         </div>
       </div>
     </div>
-              </div>
-                </div>
-            </div>
+          </div>
+           <div class="col col-xl-3">
+             <div class="card" style="width: 18rem; height: auto; border-radius: 20px" data-aos="fade-up">
+      <img src="./Assets/number.gif" class="card-img-top" alt="number" />
+      <div class="card-body">
+        <h5 class="card-title text-center">
+        <span class="number-last">+91</span>  95989 <span class="number-last">95921</span>
+        </h5>
+        <p class="card-text text-center">Sum total: 66=3</p>
+        <div class="d-flex justify-content-around">
+          <a href="#" class="btn btn-primary">Buy Now</a>
+          <a href="#" class="btn btn-primary">View details</a>
+        </div>
+        <div class="d-flex justify-content-end align-items-center number">
+          <h1 class="number-price">₹ 2200<h1>
+        </div>
+      </div>
+    </div>
+           </div>
+      </div>
+    </div>
             <div class="d-flex justify-content-center align-items-center mt-4">
               <button class="btn btn-primary">
                 More Number
@@ -706,7 +711,7 @@
             </div>
       </section>
       <!--cutomize section-->
-      <section class="mt-4 pt-4">
+      <section class="mt-4 pt-4" data-aos="fade-up">
       <div class="d-flex justify-content-center align-items-center">
         <h1 class="customize-title">Customize your number</h1>
       </div>
@@ -893,6 +898,10 @@
           clickable: true,
         },
       });
+    </script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
     <!--end of swiper-->
     <!--scripts end here-->
